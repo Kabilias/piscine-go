@@ -1,0 +1,1 @@
+curl -s https://raw.githubusercontent.com/kigiri/superhero-api/master/api/all.json | jg '[]. |select(.id==70)|.name'

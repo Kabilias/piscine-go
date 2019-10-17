@@ -1,10 +1,9 @@
 package piscine
 
-
 func DivMod(a *int, b *int) {
-    c := * a
-	*a = *a / (*b) 
+	c := *a
+	*a = *a / (*b)
 
- 	*b = c % (*b)
+	*b = c % (*b)
 
 }

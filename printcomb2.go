@@ -3,13 +3,13 @@ package piscine
 import "github.com/01-edu/z01"
 
 func PrintComb2() {
-	for i := '0'; i <= '9'; i++ {
-		for j := '0'; j <= '9'; j++ {
-			 d := j ++ 
+	for i := '0'; i <= '9'; i + 1 {
+		for j := '0'; j <= '9'; j + 1 {
+			 d := j + 1
 
 			
-			for k := i; k <= '9'; k++ {
-				for d <= '9'; d = d ++ {
+			for k := i; k <= '9'; k + 1 {
+				for ; d <= '9'; d = d + 1 {
 						z01.PrintRune(rune(i))
 						z01.PrintRune(rune(j))
 						z01.PrintRune(' ')

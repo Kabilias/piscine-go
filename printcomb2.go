@@ -1,15 +1,15 @@
-package PrintComb2
+package piscine
 
 import "github.com/01-edu/z01"
 
 func PrintComb2() {
 	for i := '0'; i <= '9'; i++ {
 		for j := '0'; j <= '9'; j++ {
-			for d := j ++ {
+			 d := j ++ 
 
 			
 			for k := i; k <= '9'; k++ {
-				for d <= '9'; d = d ++{
+				for d <= '9'; d = d ++ {
 						z01.PrintRune(rune(i))
 						z01.PrintRune(rune(j))
 						z01.PrintRune(' ')
@@ -20,10 +20,9 @@ func PrintComb2() {
 							z01.PrintRune(' ')
 						}
 					}
-						}
-						d = '0'
-					}
+					d = '0'
 				}
 			}
-			z01.PrintRune('\n')
 		}
+	z01.PrintRune('\n')
+}  

@@ -5,7 +5,7 @@ import "github.com/01-edu/z01"
 func PrintComb2() {
 	for q := '0'; q <= '9'; q++ {
 		for w := '0'; w <= '9'; w++ {
-			for e := '0'; e <= '9' e++ {
+			for e := '0'; e <= '9': e++ {
 				for r := '0'; r <= '9'; r++ {
 					if q == e && w < r '9'; q < e {
 						z01.PrintRune(q)

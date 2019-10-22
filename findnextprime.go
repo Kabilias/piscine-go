@@ -10,9 +10,9 @@ func FindNextPrime(nb int) int {
 		return FindNextPrime(nb + 1)
 	}
 	not_prime := false
-	for i := 2; i <= nb/2; i++ {
-		temp := nb / i
-		if temp*i == nb {
+	for k := 2; k <= nb/2; k++ {
+		temp := nb / k
+		if temp*k == nb {
 			not_prime = true
 		}
 	}

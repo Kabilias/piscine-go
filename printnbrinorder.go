@@ -19,7 +19,7 @@ func PrintNbrInOrder(n int) {
 
 	for i := range g {
 		ch := '0'
-		for y := 0; y < ints[i]; y++ {
+		for y := 0; y < g[i]; y++ {
 			ch++
 		}
 		z01.PrintRune(ch)

@@ -5,6 +5,7 @@
     	"os"
     )
 
+	
     func printStr(str string) {
     	arrayStr := []rune(str)
     	length := 0
